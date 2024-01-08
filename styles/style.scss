@@ -222,6 +222,7 @@ $sec-co: #202e31;
       display: grid;
       justify-content: end;
       text-align: start;
+      margin-bottom: 5rem;
       position: absolute;
       top: 35px;
       right: 50px;
@@ -235,4 +236,7 @@ $sec-co: #202e31;
       }
     }
   }
+}
+.clients {
+  margin: 30rem 0;
 }
