@@ -62,6 +62,7 @@ $sec-co: #202e31;
           padding-bottom: 0.8rem;
           border-bottom: thin solid transparent;
           transition: all 0.4s ease-in-out;
+          text-decoration: none;
           &:hover {
             border-bottom: thin solid $base-co;
             color: $base-co;
@@ -205,6 +206,7 @@ $sec-co: #202e31;
     box-shadow: 0px 5px rgba(0, 0, 0, 0.1);
     background-color: white;
     margin: 1rem 0rem;
+    border-radius: 20px;
     width: 70%;
     height: 30rem;
     position: absolute;
@@ -238,5 +240,67 @@ $sec-co: #202e31;
   }
 }
 .clients {
-  margin: 30rem 0;
+  .content {
+    text-align: center;
+    margin-bottom: 5rem;
+    span {
+      color: $base-co;
+    }
+  }
+  .cards {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10px 30px 10px;
+    .card {
+      border-radius: 20px;
+      .col-md-4 {
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+        justify-content: center;
+      }
+    }
+  }
+}
+.footer {
+  background-color: #202e31;
+  padding: 1rem 1rem;
+
+  .col-md-4 {
+    p {
+      color: white;
+    }
+  }
+  .col-md-2 {
+    display: grid;
+    justify-content: space-around;
+    margin-top: 3rem;
+    h4,
+    a,
+    .email,
+    .phone {
+      text-decoration: none;
+      color: white;
+    }
+    a {
+      &:hover {
+        color: $base-co;
+      }
+    }
+  }
+}
+.copyright {
+  background-color: #172224;
+  .copy {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    p {
+      color: white;
+    }
+    .change-color {
+      color: $base-co;
+    }
+  }
 }
