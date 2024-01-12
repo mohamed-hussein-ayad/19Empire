@@ -10,26 +10,41 @@
   <body>
     <div class="container-fluid">
       <div class="row home">
-        <div class="nav-header">
-          <div class="logo">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
             <img src="/images/logo.png" alt="19Empire logo" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse links" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link active-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Carear
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <button class="btn" type="submit">Get Quotes</button>
           </div>
-          <ul class="links mt-2">
-            <li>
-              <a href="#home" class="active-link">Home</a>
-            </li>
-            <li>
-              <a href="#services">Services</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#contact"> Contact </a>
-            </li>
-          </ul>
-          <button class="btn">Get Quotes</button>
-        </div>
+        </nav>
         <div class="content">
           <h1>Unleashing <span>Growth</span> Across <span>Industries</span></h1>
           <p>
@@ -37,7 +52,8 @@
             Fashion
           </p>
           <div class="btn mt-4">
-            Get a Free Consultation<svg
+            <span>
+              Get a Free Consultation<svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
@@ -50,6 +66,7 @@
                 d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
               />
             </svg>
+            </span>
           </div>
         </div>
       </div>
@@ -112,16 +129,6 @@
         </div>
         <div class="our">
           <div class="line">
-            <img src="/images/our-mission.png" alt="our mission" />
-            <div class="text">
-              <h1>OUR <span>MISSION</span></h1>
-              <p>
-                To help individuals and businesses with transformative tech
-                solutions that's simple, enhance productivity and lives.
-              </p>
-            </div>
-          </div>
-          <div class="line">
             <div class="text">
               <h1>OUR <span>VISION</span></h1>
               <p>
@@ -130,6 +137,16 @@
               </p>
             </div>
             <img src="/images/our-vision.png" alt="our vision" />
+          </div>
+          <div class="line">
+            <div class="text">
+              <h1>OUR <span>MISSION</span></h1>
+              <p>
+                To help individuals and businesses with transformative tech
+                solutions that's simple, enhance productivity and lives.
+              </p>
+            </div>
+            <img src="/images/our-mission.png" alt="our mission" />
           </div>
         </div>
       </div>
@@ -428,5 +445,6 @@
           </div>
       </div>
     </div>
+    <script src="/script/bootstrap.bundle.min.js"></script>
   </body>
 </html>
