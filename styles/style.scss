@@ -355,7 +355,7 @@ $sec-co: #202e31;
     @include breakpoints(mobile) {
       width: 100%;
       left: 0;
-      height: 50rem;
+      height: 47.5rem;
       top: 15rem;
     }
     .text {
@@ -380,7 +380,7 @@ $sec-co: #202e31;
       right: 50px;
       @include breakpoints(mobile) {
         padding: 0;
-        top: 100px;
+        top: 350px;
       }
       form {
         width: 20rem;

@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row home">
+      <div class="row home" id="home">
         <nav class="navbar navbar-expand-lg ">
           <div class="container-fluid">
             <img src="/images/logo.png" alt="19Empire logo" />
@@ -19,16 +19,16 @@
             <div class="collapse navbar-collapse links" id="navbarSupportedContent">
               <ul class="navbar-nav  mb-2 mb-lg-0 ">
                 <li class="nav-item">
-                  <a class="nav-link active-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active-link" aria-current="page" href="#home" id="Home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#about" id="About">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#services" id="Services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact" id="Contact">Contact</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      <div class="row why mb-4">
+      <div class="row why mb-4" id="about">
         <div class="why-text">
           <h1>WHY 19 EMPIRE?</h1>
           <p class="mt-4">
@@ -84,7 +84,7 @@
         </div>
         <img src="/images/why-Image.png" alt="Why Image" />
       </div>
-      <div class="row box-style services mb-4">
+      <div class="row box-style services mb-4" id="services">
         <div class="text">
           <h1>EXPLORE OUR <span>SERVICES</span></h1>
           <p>
@@ -214,7 +214,7 @@
           </div>
         </div>
       </div>
-      <div class="row contact mb-4">
+      <div class="row contact mb-4" id="contact">
         <div class="content">
           <p class="mb-4">
             Hire us today if you need a professional service to help shape your
@@ -446,5 +446,6 @@
       </div>
     </div>
     <script src="/script/bootstrap.bundle.min.js"></script>
+    <script src="/script/script.js"></script>
   </body>
 </html>
